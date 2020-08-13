@@ -16,6 +16,8 @@
 		1854D40A24E46914002C89BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1854D40824E46914002C89BA /* LaunchScreen.storyboard */; };
 		1854D41524E46914002C89BA /* better_inc_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854D41424E46914002C89BA /* better_inc_Tests.swift */; };
 		1854D42024E46915002C89BA /* better_inc_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854D41F24E46915002C89BA /* better_inc_UITests.swift */; };
+		1854D43524E5BCC8002C89BA /* SavedTagsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854D43424E5BCC8002C89BA /* SavedTagsViewController.swift */; };
+		1854D43724E5BE09002C89BA /* TagsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854D43624E5BE09002C89BA /* TagsPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		1854D41F24E46915002C89BA /* better_inc_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = better_inc_UITests.swift; sourceTree = "<group>"; };
 		1854D42124E46915002C89BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1854D42F24E47293002C89BA /* better inc..entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "better inc..entitlements"; sourceTree = "<group>"; };
+		1854D43424E5BCC8002C89BA /* SavedTagsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedTagsViewController.swift; sourceTree = "<group>"; };
+		1854D43624E5BE09002C89BA /* TagsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 				1854D3FC24E46913002C89BA /* SceneDelegate.swift */,
 				1854D3FE24E46913002C89BA /* ViewController.swift */,
 				1854D40024E46913002C89BA /* Main.storyboard */,
+				1854D43424E5BCC8002C89BA /* SavedTagsViewController.swift */,
+				1854D43624E5BE09002C89BA /* TagsPageViewController.swift */,
 				1854D40624E46914002C89BA /* Assets.xcassets */,
 				1854D40824E46914002C89BA /* LaunchScreen.storyboard */,
 				1854D40B24E46914002C89BA /* Info.plist */,
@@ -266,7 +272,9 @@
 			files = (
 				1854D3FF24E46913002C89BA /* ViewController.swift in Sources */,
 				1854D3FB24E46913002C89BA /* AppDelegate.swift in Sources */,
+				1854D43524E5BCC8002C89BA /* SavedTagsViewController.swift in Sources */,
 				1854D40524E46913002C89BA /* better_inc_.xcdatamodeld in Sources */,
+				1854D43724E5BE09002C89BA /* TagsPageViewController.swift in Sources */,
 				1854D3FD24E46913002C89BA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
