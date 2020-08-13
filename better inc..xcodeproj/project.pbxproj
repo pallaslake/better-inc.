@@ -18,6 +18,7 @@
 		1854D42024E46915002C89BA /* better_inc_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854D41F24E46915002C89BA /* better_inc_UITests.swift */; };
 		1854D43524E5BCC8002C89BA /* SavedTagsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854D43424E5BCC8002C89BA /* SavedTagsViewController.swift */; };
 		1854D43724E5BE09002C89BA /* TagsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854D43624E5BE09002C89BA /* TagsPageViewController.swift */; };
+		1854D43C24E5C732002C89BA /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 1854D43B24E5C732002C89BA /* fonts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		1854D42F24E47293002C89BA /* better inc..entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "better inc..entitlements"; sourceTree = "<group>"; };
 		1854D43424E5BCC8002C89BA /* SavedTagsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedTagsViewController.swift; sourceTree = "<group>"; };
 		1854D43624E5BE09002C89BA /* TagsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsPageViewController.swift; sourceTree = "<group>"; };
+		1854D43B24E5C732002C89BA /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		1854D3EE24E46913002C89BA = {
 			isa = PBXGroup;
 			children = (
+				1854D43B24E5C732002C89BA /* fonts */,
 				1854D3F924E46913002C89BA /* better inc. */,
 				1854D41324E46914002C89BA /* better inc.Tests */,
 				1854D41E24E46915002C89BA /* better inc.UITests */,
@@ -243,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1854D43C24E5C732002C89BA /* fonts in Resources */,
 				1854D40A24E46914002C89BA /* LaunchScreen.storyboard in Resources */,
 				1854D40724E46914002C89BA /* Assets.xcassets in Resources */,
 				1854D40224E46913002C89BA /* Main.storyboard in Resources */,
