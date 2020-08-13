@@ -9,15 +9,20 @@
 import UIKit
 
 class TagsPageViewController: UIViewController {
-    
-    var text:String = ""
-    
-    
     override func viewDidLoad() {
-        super.viewDidLoad()
+           super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+           // Do any additional setup after loading the view.
+       }
+    
+    @IBAction func savePressed(_ sender: UIButton) {
+       let vc = SavedTagsTableViewController()
+        vc.tags.append("anxiety")
+        navigationController?.pushViewController(vc, animated:true)
     }
+    
+    
+
     
 
     /*
