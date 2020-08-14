@@ -15,14 +15,25 @@ class TagsPageViewController: UIViewController {
            // Do any additional setup after loading the view.
        }
     
+   
     @IBAction func savePressed(_ sender: UIButton) {
-       let vc = SavedTagsTableViewController()
+        let vc = SavedTagsTableViewController()
         vc.tags.append("anxiety")
         navigationController?.pushViewController(vc, animated:true)
     }
     
     
-
+    @IBAction func savePressed1(_ sender: UIButton) {
+        let vc = SavedTagsTableViewController()
+        vc.tags.append("depression")
+        navigationController?.pushViewController(vc, animated:true)
+    }
+    
+    @IBAction func savePressed2(_ sender: UIButton) {
+        let vc = SavedTagsTableViewController()
+        vc.tags.append("covid")
+        navigationController?.pushViewController(vc, animated:true)
+    }
     
 
     /*

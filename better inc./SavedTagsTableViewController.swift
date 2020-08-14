@@ -16,6 +16,7 @@ class SavedTagsTableViewController: UITableViewController {
         super.viewDidLoad()
 
         self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "reuseIdentifier")
+        self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "reuseIdentifier1")
         
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -37,6 +38,9 @@ class SavedTagsTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
 
+       
+
+        
         // Configure the cell...
         cell.textLabel?.text = tags[indexPath.row]
         return cell
