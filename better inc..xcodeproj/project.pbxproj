@@ -19,6 +19,8 @@
 		1854D43C24E5C732002C89BA /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 1854D43B24E5C732002C89BA /* fonts */; };
 		18DEFA1B24E5E17A00249F20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DEFA1A24E5E17A00249F20 /* Main.storyboard */; };
 		18DEFA1D24E5E1EF00249F20 /* SavedTagsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DEFA1C24E5E1EF00249F20 /* SavedTagsTableViewController.swift */; };
+		6724B27224E66C20009916B0 /* TagsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6724B27124E66C20009916B0 /* TagsViewController.swift */; };
+		6724B27424E67080009916B0 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6724B27324E67080009916B0 /* UserViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		1854D43B24E5C732002C89BA /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		18DEFA1A24E5E17A00249F20 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		18DEFA1C24E5E1EF00249F20 /* SavedTagsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedTagsTableViewController.swift; sourceTree = "<group>"; };
+		6724B27124E66C20009916B0 /* TagsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsViewController.swift; sourceTree = "<group>"; };
+		6724B27324E67080009916B0 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 		1854D3EE24E46913002C89BA = {
 			isa = PBXGroup;
 			children = (
+				6724B27324E67080009916B0 /* UserViewController.swift */,
 				1854D43B24E5C732002C89BA /* fonts */,
 				1854D3F924E46913002C89BA /* better inc. */,
 				1854D41324E46914002C89BA /* better inc.Tests */,
@@ -115,6 +120,7 @@
 				1854D3FC24E46913002C89BA /* SceneDelegate.swift */,
 				1854D3FE24E46913002C89BA /* ViewController.swift */,
 				1854D43624E5BE09002C89BA /* TagsPageViewController.swift */,
+				6724B27124E66C20009916B0 /* TagsViewController.swift */,
 				18DEFA1A24E5E17A00249F20 /* Main.storyboard */,
 				1854D40624E46914002C89BA /* Assets.xcassets */,
 				1854D40824E46914002C89BA /* LaunchScreen.storyboard */,
@@ -275,9 +281,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1854D3FF24E46913002C89BA /* ViewController.swift in Sources */,
+				6724B27424E67080009916B0 /* UserViewController.swift in Sources */,
 				1854D3FB24E46913002C89BA /* AppDelegate.swift in Sources */,
 				1854D40524E46913002C89BA /* better_inc_.xcdatamodeld in Sources */,
 				1854D43724E5BE09002C89BA /* TagsPageViewController.swift in Sources */,
+				6724B27224E66C20009916B0 /* TagsViewController.swift in Sources */,
 				18DEFA1D24E5E1EF00249F20 /* SavedTagsTableViewController.swift in Sources */,
 				1854D3FD24E46913002C89BA /* SceneDelegate.swift in Sources */,
 			);
