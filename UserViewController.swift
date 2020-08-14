@@ -18,7 +18,8 @@ class UserViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
+        tagsLabel.font = UIFont(name: "Futura-Medium", size: 40.0)
+        tagsLabel.textColor = UIColor(red:0.93, green:0.94, blue:0.95, alpha:1.0)
         tagsLabel.text = "Tags: "
         
         if tArray.count > 0 {
