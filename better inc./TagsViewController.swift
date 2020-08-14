@@ -39,7 +39,7 @@ class TagsViewController: UIViewController {
     func buttonPressed(bool : Bool, tagButton : UIButton, tagString : String) {
         
         if bool {
-            tagButton.backgroundColor = UIColor.blue
+            tagButton.backgroundColor = UIColor(red: 0.05, green: 0.58, blue: 0.58, alpha: 1.00)
             tagArray.append(tagString)
         } else {
             tagButton.backgroundColor = UIColor(white: 1, alpha: 0)
